@@ -5,6 +5,7 @@ print("*****************************************")
 print("  Bem vindo à nossa arena de jogos!      ")
 print("*****************************************")
 
+
 def start():
     print("\nTemos os seguintes jogos:")
     print("(1) Adivinhacao (2) Forca")
@@ -20,8 +21,9 @@ def start():
 
     if (jogo == 1):
         jogar_adivinhacao()
-    elif(jogo == 2):
+    elif (jogo == 2):
         jogar_forca()
 
-if(__name__ == "__main__"):
+
+if (__name__ == "__main__"):
     start()
